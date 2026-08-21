@@ -1,0 +1,21 @@
+h1{
+    color:aqua;
+}
+h2{
+    color:rgb(255,0,0);
+}
+h3{
+    color:#0000ff;
+}
+h4{
+    color:hsl(240,100%,50%);
+}
+div{
+    height:200px;
+    width:200px;
+    background-image:url("dog.jpeg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right top;
+    background-color: blue;
+}

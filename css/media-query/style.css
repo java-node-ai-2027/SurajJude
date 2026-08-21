@@ -1,0 +1,18 @@
+body{
+    background-color:red;
+}
+
+.outer{
+    width:5rem;
+    height:5rem;
+    background-color: aqua;
+}
+
+@media (max-width:700px){
+    body{
+        background-color: yellow;
+    }
+    .outer{
+        background-color: black;
+    }
+}

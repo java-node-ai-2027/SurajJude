@@ -1,0 +1,18 @@
+.block {
+  display: block;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+.inline {
+  display: inline;
+  background-color: lightgreen;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+  background-color: lightcoral;
+  margin: 10px;
+}
