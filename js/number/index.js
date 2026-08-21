@@ -1,0 +1,9 @@
+let num = 100.5678;
+let numString = num.toString;
+let numFixed = num.toFixed(2) //"100.57"
+let numPrcision = num.toPrecision(3); //"100.5"
+let numExp = num.toExponential(); //"1.005678e+2"
+let maxNum = Number.MAX_VALUE;
+let minNum = Number.MIN_VALUE;
+let positiveInf = Number.POSITIVE_INFINITY;
+let negativeInf = Number.NEGATIVE_INFINITY;
