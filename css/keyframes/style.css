@@ -1,0 +1,15 @@
+@keyframes color-changer{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: black;
+    }
+}
+
+body{
+    animation: color-changer 4s ease-in-out 1s infinite alternate-reverse ;
+
+
+
+}

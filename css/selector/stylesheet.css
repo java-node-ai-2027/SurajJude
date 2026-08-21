@@ -1,0 +1,128 @@
+
+p {
+    color: red;
+    text-align: end;
+}
+
+#heading {
+    color: blue;
+}
+
+.para {
+    font-size: 2rem;
+}
+
+* {
+    background-color: azure;
+}
+
+p,h1,h2 {
+    color: blue;
+}
+
+div p {
+    color: black;
+}
+
+div > p {
+    color: darkgreen;
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+h1 ~ p {
+    font-size: 5em;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:link {
+    color: blue;
+}
+
+button:active {
+    background-color: red;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+p:lang(en) {
+    font-style: italic;
+}
+
+.article::first-line {
+    font-weight: bold;
+}
+
+.article::first-letter {
+    font-size: 3rem;
+}
+
+.note::before {
+    content: "Note: ";
+    font-weight: bold;
+}
+
+.note::after {
+    content: " ✓";
+}
+
+li::marker {
+    color: red;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+input[required] {
+    border: 2px solid red;
+}
+
+input[type="text"] {
+    background-color: white;
+}
+
+[class~="box"] {
+    border: 1px solid black;
+}
+
+[lang|="en"] {
+    font-family: Arial, sans-serif;
+}
+
+a[href^="https"] {
+    font-weight: bold;
+}
+
+a[href$=".pdf"] {
+    text-decoration: underline;
+}
+
+a[href*="google"] {
+    color: orange;
+}

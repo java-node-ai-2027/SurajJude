@@ -1,0 +1,12 @@
+div{
+    height: 800px;
+    width: 400px;
+    
+}
+img{
+    float:left;
+}
+p{
+    max-width: 400px;
+    /* clear:left; */
+}

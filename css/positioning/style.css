@@ -1,0 +1,48 @@
+
+
+.box {
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  left: 50px;
+  top: 20px;
+  background-color: lightgreen;
+}
+
+.parent {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  margin: 40px 20px;
+  background-color: lightgray;
+}
+
+.absolute {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: lightcoral;
+}
+
+.fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: orange;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+}
